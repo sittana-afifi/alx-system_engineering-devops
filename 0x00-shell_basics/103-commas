@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p | LC_ALL=C sort -t'.' -k1,1 -k2n -k3n | tr '\n' ','
+ls -1ap | sort -t. -k1,1 -k2n -k3n | tr '\n' ','; echo
